@@ -13,24 +13,24 @@ TWO = 0x03
 
 
 def controller(key):
-    if chr(key) == 'A':
+    if chr(key) == 'D':
         PressKey(A)
-        print("A")
+        print("D")
         time.sleep(0.10)
         ReleaseKey(A)
-    if chr(key) == 'B':
+    if chr(key) == 'E':
         PressKey(B)
-        print("B")
+        print("E")
         time.sleep(0.10)
         ReleaseKey(B)
-    if chr(key) == 'Z':
+    if chr(key) == 'C':
         PressKey(Z)
-        print("Z")
+        print("C")
         time.sleep(0.10)
         ReleaseKey(Z)
-    if chr(key) == 'S':
+    if chr(key) == 'B':
         PressKey(S)
-        print("S")
+        print("B")
         time.sleep(0.10)
         ReleaseKey(S)
     if chr(key) == '0':
