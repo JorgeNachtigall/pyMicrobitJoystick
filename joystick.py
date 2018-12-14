@@ -13,41 +13,26 @@ TWO = 0x03
 
 
 def controller(key):
-    if chr(key) == 'D':
+    if chr(key) == 'A':
         PressKey(A)
-        print("D")
+        print("A")
         time.sleep(0.10)
         ReleaseKey(A)
-    if chr(key) == 'E':
-        PressKey(B)
-        print("E")
-        time.sleep(0.10)
-        ReleaseKey(B)
-    if chr(key) == 'C':
-        PressKey(Z)
-        print("C")
-        time.sleep(0.10)
-        ReleaseKey(Z)
     if chr(key) == 'B':
-        PressKey(S)
+        PressKey(B)
         print("B")
         time.sleep(0.10)
+        ReleaseKey(B)
+    if chr(key) == 'U':
+        PressKey(Z)
+        print("U")
+        time.sleep(0.10)
+        ReleaseKey(Z)
+    if chr(key) == 'D':
+        PressKey(S)
+        print("D")
+        time.sleep(0.10)
         ReleaseKey(S)
-    if chr(key) == '0':
-        PressKey(ZERO)
-        print("ZERO")
-        time.sleep(0.10)
-        ReleaseKey(ZERO)
-    if chr(key) == '1':
-        PressKey(ONE)
-        print("ONE")
-        time.sleep(0.10)
-        ReleaseKey(ONE)
-    if chr(key) == '2':
-        PressKey(TWO)
-        print("TWO")
-        time.sleep(0.10)
-        ReleaseKey(TWO)
 
 
 def joystick():
